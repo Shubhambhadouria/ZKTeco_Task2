@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#navbar{
+    background-color: black;
+    width: 100%;
+}
+h1,h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    cursor: pointer;
+}
+.content{
+    margin: auto;
+    align-items: center;
+}
+.array1{
+    margin: auto;
+    padding-top: 50px;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.array1>h1{
+    background-color: black;
+    color: white;
+}
+.array2>h1{
+    background-color: black;
+    color: white;
+}
+.array3>h1{
+    background-color: black;
+    color: white;
+}
+.array2{
+    margin: auto;
+    text-align: left;
+    padding-top: 10px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.array3{
+    margin: auto;
+    text-align: left;
+    padding-top: 10px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.array1 tr:nth-child(odd){
+    background-color: rgb(212, 211, 211);
+}
+
+.array2 tr:nth-child(odd){
+    background-color: rgb(212, 211, 211);
+}
+
+.array3 tr:nth-child(odd){
+    background-color: rgb(212, 211, 211);
+}
+
+.result{
+    text-align: center;
+    margin: auto;
+    
+}
+.result>button{
+    padding: 20px;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: transform .5s;
+    margin-bottom: 30px;
+}
+.result>button:hover{
+    transform: scale(1.1);
+}
+
+.array3{
+    visibility: hidden;
+}
